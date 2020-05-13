@@ -1,0 +1,5 @@
+while read a
+do 
+echo $a | cut -c3
+done
+
