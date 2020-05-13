@@ -1,0 +1,27 @@
+tail -n 20 | while read line
+do
+    echo $line 
+done
+
+ tr '()' '[]' 
+
+tail -c20 
+
+head -c 20
+
+head -n22 | tail -n11 | while read test
+do
+    echo "$test"
+done
+
+head -n20 | while read test
+do 
+    echo "$test"
+done
+
+i = 1
+
+for i in {1..99..2}
+do
+    echo "$i"
+done

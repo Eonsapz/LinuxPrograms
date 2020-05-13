@@ -1,0 +1,4 @@
+sort -rt$'\t' | while read line
+do 
+    echo "$line"
+done

@@ -1,0 +1,3 @@
+tr -s  " "
+tr -d [:lower:]
+tr -d a-z
