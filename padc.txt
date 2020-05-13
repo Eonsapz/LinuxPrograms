@@ -1,0 +1,3 @@
+paste -s -d$'\t'
+paste -d';' - - -
+paste -s -d';' 
